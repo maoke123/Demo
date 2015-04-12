@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+from matplotlib.font_manager import FontProperties
+import matplotlib.pyplot as plt
+import numpy as np
+font=FontProperties(fname=r"C:\Windows\Fonts\SIMYOU.ttf",size=14)
+t=np.linspace(0,10,1000)
+y=np.sin(t)
+plt.plot(t,y)
+plt.xlabel(u"Ê±¼ä",fontproperties=font)
+plt.ylabel(u"Õñ·ù",fontproperties=font)
+plt.title(u"ÕýÏÒ²¨",fontproperties=font)
+plt.show()
